@@ -177,7 +177,7 @@ a{text-decoration: none;}
 }
 .footer {background-color: #FCFCFC; padding: 40px 0; font-family: 'Sharp Sans'; color: #333;text-align: left;}
 .container12 {max-width: 1200px; margin: 0 auto; padding: 0 15px;}
-.footer-row {display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;}
+.footer-row {display: flex; flex-wrap: wrap; gap: 20px;}
 .footer-column {flex: 1; width: 77px; height: 132px;}
 .footer-title {font-size: 22px; font-weight: 770; line-height: 27.5px; margin-bottom: 10px; color: #2C3847;}
 .footer-text {font-size: 16px; color: #657582; line-height: 15px; font-weight: 760; width: 260px; height: 40px; padding-top: 60px;}
@@ -566,6 +566,64 @@ a{text-decoration: none;}
 
 
 /* O‘rta ekranlar uchun (planshetlar) */
+
+@media (max-width: 1024px){
+  .fikr {
+    width: 850px;
+  }
+  .fikrlar-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    margin-top: 10px; /* Tepadan pastga to‘g‘ri bo‘shliq */
+    margin-left: 25%;
+  }
+  
+  .section-title {
+    margin-top: 1090px;
+    font-size: 36px;
+    line-height: 45px;
+
+  }
+  .client-img {
+    width: 50px;
+    height: 50px;
+  }
+  .client-info h3 {
+    font-size: 1rem;
+  }
+  .fikr-sarlavhasi {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+  .fikr-matni {
+    font-size: 16px;
+    width: auto;
+  }
+  .mijoz-rasmi {
+    width: 70px;
+    height: 70px;
+  }
+  .mijoz-ismi {
+    font-size: 18px;
+
+  }
+  .mijoz-pozitsiyasi {
+    font-size: 0.8rem;
+    padding-left: 6.5%;
+    margin-top: 5%;
+  }
+  #poz2 {
+    margin-left: -55%;
+  }
+  .hedt4 {
+
+    max-width: 65px;
+    max-height: 70px;
+  }
+}
+
 @media (max-width: 768px) {
   .fikr {
     max-width: 450px;
